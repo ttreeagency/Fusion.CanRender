@@ -35,6 +35,6 @@ class CanRenderImplementation extends AbstractFusionObject
      */
     public function evaluate()
     {
-        return $this->tsRuntime->canRender('/type<' . $this->getType() . '>');
+        return $this->runtime->canRender('/type<' . $this->getType() . '>');
     }
 }
