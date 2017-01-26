@@ -1,0 +1,18 @@
+{
+    "name": "ttree/fusion-canrender",
+    "description": "Simple fusion script to test if the given type can be rendered",
+    "type": "neos-package",
+    "require": {
+        "typo3/flow": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ttree\\Fusion\\CanRender": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Ttree.Fusion.CanRender"
+        }
+    }
+}
