@@ -11,7 +11,7 @@ namespace Ttree\Fusion\CanRender;
  * source code.
  */
 use Neos\Flow\Annotations as Flow;
-use TYPO3\TypoScript\TypoScriptObjects\AbstractTypoScriptObject;
+use Neos\Fusion\TypoScriptObjects\AbstractTypoScriptObject;
 
 /**
  * CanRenderImplementation
