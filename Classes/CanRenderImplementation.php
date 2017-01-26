@@ -11,12 +11,12 @@ namespace Ttree\Fusion\CanRender;
  * source code.
  */
 use Neos\Flow\Annotations as Flow;
-use Neos\Fusion\TypoScriptObjects\AbstractTypoScriptObject;
+use Neos\Fusion\FusionObjects\AbstractFusionObject;
 
 /**
  * CanRenderImplementation
  */
-class CanRenderImplementation extends AbstractTypoScriptObject
+class CanRenderImplementation extends AbstractFusionObject
 {
     /**
      * TypoScript Type which shall be rendered
