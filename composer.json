@@ -1,9 +1,10 @@
 {
     "name": "ttree/fusion-canrender",
-    "description": "Simple fusion script to test if the given type can be rendered",
+    "description": "A small Fusion helper to test if the given prototype can be rendered (is available)",
     "type": "neos-package",
+    "license": "MIT",
     "require": {
-        "neos/flow": "*"
+        "neos/fusion": "^3.0.0"
     },
     "autoload": {
         "psr-4": {
